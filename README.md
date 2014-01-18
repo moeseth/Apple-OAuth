@@ -5,6 +5,7 @@ Example,
 
 <code>
     OACredential *credential = [[objc_getClass("OACredential") alloc] init];
+
     [credential setConsumerSecret:@"TWITTER_SECRET"];
     [credential setConsumerKey:@"TWITTER_KEY"];
     [credential setOauthTokenSecret:@"TWITTER_TOKEN_SECRET"];
@@ -25,4 +26,4 @@ Example,
         NSLog(@"data -> %@", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
     }];
 
-<code>
+</code>
