@@ -2,7 +2,7 @@ To sign and send OAuth request using libOAuth from Apple
 --------------------------------------------------------
 
 Example, 
-
+<pre>
 <code>
     OACredential *credential = [[objc_getClass("OACredential") alloc] init];
 
@@ -27,3 +27,4 @@ Example,
     }];
 
 </code>
+</pre>
