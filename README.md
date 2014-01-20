@@ -1,4 +1,4 @@
-To sign and send OAuth request using libOAuth from Apple
+To sign and send OAuth request using private OAuth Framework from Apple
 --------------------------------------------------------
 
 Example, 
